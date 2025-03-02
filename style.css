@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+    
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #151B54;
+}
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-links a{
+    text-decoration: none;
+    font:bolder;
+    color: #342D7E;
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+
+}
+.toggle{
+    display: none;
+}
+
+@media screen and  (max-width:1000px){
+    .toggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .container1{
+        display: none;
+    }
+    .container2{
+        flex-direction: column;
+    }
+ 
+}
+.side-navbar{
+    background-color: rgb(23, 23, 55);
+    color: white;
+    width: 40%;
+    height: 100%;
+    position:fixed;
+    padding: 20px;
+    gap: 10px;
+    top: 0px;
+    left: -60%;
+    transition: 2s;
+   
+
+}
+.side-navbar-links{
+    font-size:x-large;
+    padding: 20px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.header{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.headerbutton{
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+    cursor: pointer;
+}
+.service{
+    padding: 20px;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 50px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    right: 50px;
+}
+.container2 div{
+    background-color: #161939;
+    width: fit-content;
+    height: fit-content;
+    color: azure;
+    border-radius: 20px;
+    padding: 20px;
+}
+.newarrival{
+    margin-left: 10px;
+    padding: 10px;
+    gap: 5px;
+    flex-basis: 18%;
+    position: relative;
+}
+.arrival{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.arrbutton{
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    background-color:#11203c;
+    color: aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    
+}
+.arrbutton:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new input{
+    padding: 10px;
+    width: 80vw;
+    border-color: black;
+    border-style:groove;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.new button{
+    background-color: black;
+    color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #161939;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+   
+}
+
+.icon{
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+    
+}
+.icon :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contact{
+    color: #ffff;
+    gap: 10px;
+    margin-right: 50%;
+    
+    
+}
+.productsection{
+    margin-top: 20px;
+}
+.productsearch{
+    /*margin-left: 10%;*/
+    width: 80%;
+    border:solid black 2px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+.productsearch input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.productsearch input:focus{
+    outline: none;
+}
+.product{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productbox{
+    
+    flex-basis: 20%;
+    justify-content: space-around;
+
+    text-align: center;
+}
+.productbox img{
+    border-radius: 15px};
+
+.side-navbar-link{
+    margin-bottom: 30px;
+    
+}
+.side-navbar-links a{
+    text-decoration: none;
+    color: beige;
+}
+.side-navbar-links a:hover{
+    text-decoration: underline;
+}
